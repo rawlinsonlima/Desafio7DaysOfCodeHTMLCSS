@@ -1,0 +1,48 @@
+:root {
+    --cor-principal:  #101828;
+    --cor-secundaria: #667085;
+    --vermelho: #8E2424;
+    --sombra: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    --branco: #FFFFFF;
+
+}
+
+body {
+    font-family: Inter;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin: 1.5em 2em;  
+    justify-content: space-between; 
+  
+}
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+    gap: 1em;
+    color: var(--cor-principal);
+  
+}
+
+.cabecalho__nav {
+    margin-right: 50%;
+   
+}
+
+.cabecalho__nav-links {
+    text-decoration: none;
+    padding: 1em;
+    color: var(--cor-secundaria);
+}
+
+.cadastrar {
+    color: var(--branco);
+    background: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
