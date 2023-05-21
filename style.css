@@ -4,11 +4,12 @@
     --vermelho: #8E2424;
     --sombra: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     --branco: #FFFFFF;
-
+    --preto: #000000;
 }
 
 body {
     font-family: Inter;
+    font-weight: 400;
 }
 
 .cabecalho {
@@ -16,20 +17,18 @@ body {
     align-items: center;
     margin: 1.5em 2em;  
     justify-content: space-between; 
-  
 }
+
 .cabecalho__logo {
     display: flex;
     align-items: center;
     margin-left: 4em;
     gap: 1em;
-    color: var(--cor-principal);
-  
+    color: var(--cor-principal);  
 }
 
 .cabecalho__nav {
     margin-right: 50%;
-   
 }
 
 .cabecalho__nav-links {
@@ -46,3 +45,59 @@ body {
     border-radius: 8px;
 }
 
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7em 0;
+    gap: 1em;
+}
+
+.sobre-nos__spam {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.sobre-nos__titulo {
+    color: var(--cor-principal);
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+.sobre-nos__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    max-width: 50%;
+    height: 60px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.metricas-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5em;
+    align-items: start;
+}
+
+.metricas-container__metrica {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;   
+}
+
+.metricas-container__titulo {
+    color: var(--cor-principal);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1em 0; 
+}
+
+.metricas-container__texto {
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    width: 280px;
+}
