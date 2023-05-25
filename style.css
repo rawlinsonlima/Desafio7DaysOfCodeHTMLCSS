@@ -101,3 +101,111 @@ body {
     font-size: 16px;
     width: 280px;
 }
+
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+    text-align: center;
+}
+
+.banner-span {
+    background-color: rgba(142, 36, 36, 0.05);
+    color: var(--vermelho);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.banner-titulo {
+    color: var(--cor-principal);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 1.5em 0;
+}
+
+.banner-texto {
+    color: var(--cor-secundaria);
+    font-size: 20px;
+    margin-bottom: 3em;
+}
+
+.jobs { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 25vw;
+    align-items: start;
+}
+
+.banner-jobs-titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--preto);
+    text-shadow: var(--sombra);
+    margin: 2em 0;
+}
+
+.banner-jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px;
+    border-radius: 16px;
+    background: var(--branco);
+    margin: 1em 0;
+    width: 90%;
+}  
+
+.banner-jobs-oferta {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-principal);
+}
+
+.descricao {
+    display: flex;
+    color: var(--cor-secundaria);
+    gap: 24px;
+    font-size: 16px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 64px;
+}
+
+.depoimentos-descricao-span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.depoimentos-titulo {
+    font-size: 44px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--cor-principal);  
+    margin: 1em 0;  
+}
+
+.depoimentos-colaborador-nome {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-principal);
+    margin: 1em 0;
+}
+
+.depoimentos-colaborador-cargo {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+}
