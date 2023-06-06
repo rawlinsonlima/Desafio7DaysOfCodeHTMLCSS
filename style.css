@@ -53,7 +53,7 @@ body {
     gap: 1em;
 }
 
-.sobre-nos__spam {
+.sobre-nos__span {
     color: var(--vermelho);
     font-weight: 600;
 }
@@ -210,4 +210,66 @@ body {
 .depoimentos-colaborador-cargo {
     font-size: 14px;
     color: var(--cor-secundaria);
+}
+
+.final-titulo {
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--cor-principal);  
+    margin-top: 3em;  
+    text-align: center;
+}
+
+.final-texto {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    text-align: center;
+    margin-top: 1.5em; 
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0; 
+}
+
+.cadastro-email {
+    width: 30%;
+    margin-right: 1em;
+    padding: 1em;
+    border-radius: 16px;
+    border-color: var(--cor-secundaria);
+    box-sizing: 1px;
+}
+
+.botao {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--vermelho);
+  color: var(--branco);
+  font-size: 0.9rem;
+}
+
+.rodape {
+    font-size: 12px;
+    color: var(--cor-secundaria);
+    text-align: center;
+    margin: 3em 0 10em 0;
+}
+
+@media screen and (max-width: 920px) {
+    .metricas-container {
+      padding: 0 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .metricas-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 }
